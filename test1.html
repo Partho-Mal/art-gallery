@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Gallery</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="background-menu">
+        <div id="menu">
+            <div id="img_container">
+                <img src="./img/starrynightoverrhone.jpg" alt="menu pic">
+            </div>
+
+            <div id="content">
+                <h1>Art Gallery</h1>
+                <div>
+                    <p>This is an interactive 3D gallery</p>
+                    <p>Made with love and Three.js</p>
+                </div>
+            </div>
+
+            <div>
+                <p>Instructions</p>
+                <p>Arrow Keys</p>
+                <p>Look around with mouse</p>
+            </div>
+
+            <div id="play_button">
+                <p>Enter the Gallery</p>
+            </div>
+        </div>
+    </div>
+
+    <script type="importmap">
+        {
+          "imports": {
+            "three": "https://cdn.jsdelivr.net/npm/three@0.167.1/build/three.module.js",
+            "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.167.1/examples/jsm/"
+          }
+        }
+      </script>
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
